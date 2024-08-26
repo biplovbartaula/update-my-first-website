@@ -1,0 +1,101 @@
+nav{
+    background-color: rgb(230, 223, 225);
+    color: rgb(29, 16, 222);
+    padding:2px;
+    position: relative;
+    text-align: start;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+    justify-content: end;
+
+    
+}
+li a{
+    color:rgb(28, 28, 190);
+    text-decoration: none;
+    font-family: Impact;
+    font-size: 20px;
+    justify-content: end;
+
+}
+li :hover{
+    
+color: rgb(244, 85, 85);
+
+}
+
+
+h1{
+    color: white;
+    justify-content: left;
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    height: 50px;
+    width: 200px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+  
+   
+   
+    
+}
+.name{
+    height: 20%;
+    width: 50%;
+    justify-content:flex-end;
+}
+.banner-text{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    color: rgb(32, 10, 176);
+    font-family:arial;
+    text-align: center;
+    transform: translate(-50% ,-50%);
+
+}
+.banner-section{
+    position: relative;
+    object-fit: cover;
+}
+.fec{
+    color: red;
+    font-family: "impact";
+}
+.protfolio-items{
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+    background-color:navy;
+    justify-content: center;
+    top: 10px;
+
+}
+.protfolio-items img{
+    width: 32%;
+    background-color: rgb(236, 148, 16);
+    justify-content: center;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+ .protfolio-items :hover{
+    filter: brightness(0.6);
+ }
+    
+    
+
+.aboutus{
+   text-align: center;
+    font-family: impact;
+    color: black;
+
+}
